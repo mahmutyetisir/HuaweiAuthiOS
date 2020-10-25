@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18990AF82546259B00E86375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990AF72546259B00E86375 /* AppDelegate.swift */; };
+		18990AFA2546259B00E86375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990AF92546259B00E86375 /* SceneDelegate.swift */; };
+		18990AFC2546259B00E86375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990AFB2546259B00E86375 /* ViewController.swift */; };
+		18990AFF2546259B00E86375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18990AFD2546259B00E86375 /* Main.storyboard */; };
+		18990B012546259E00E86375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18990B002546259E00E86375 /* Assets.xcassets */; };
+		18990B042546259E00E86375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18990B022546259E00E86375 /* LaunchScreen.storyboard */; };
+		18990B0F2546259E00E86375 /* HuaweiAuthKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990B0E2546259E00E86375 /* HuaweiAuthKitTests.swift */; };
+		18990B1A2546259E00E86375 /* HuaweiAuthKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990B192546259E00E86375 /* HuaweiAuthKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18990B0B2546259E00E86375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18990AEC2546259B00E86375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18990AF32546259B00E86375;
+			remoteInfo = HuaweiAuthKit;
+		};
+		18990B162546259E00E86375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18990AEC2546259B00E86375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18990AF32546259B00E86375;
+			remoteInfo = HuaweiAuthKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18990AF42546259B00E86375 /* HuaweiAuthKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaweiAuthKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18990AF72546259B00E86375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18990AF92546259B00E86375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18990AFB2546259B00E86375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18990AFE2546259B00E86375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18990B002546259E00E86375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18990B032546259E00E86375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18990B052546259E00E86375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18990B0A2546259E00E86375 /* HuaweiAuthKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaweiAuthKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18990B0E2546259E00E86375 /* HuaweiAuthKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuaweiAuthKitTests.swift; sourceTree = "<group>"; };
+		18990B102546259E00E86375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18990B152546259E00E86375 /* HuaweiAuthKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaweiAuthKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18990B192546259E00E86375 /* HuaweiAuthKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuaweiAuthKitUITests.swift; sourceTree = "<group>"; };
+		18990B1B2546259E00E86375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18990AF12546259B00E86375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18990B072546259E00E86375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18990B122546259E00E86375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18990AEB2546259B00E86375 = {
+			isa = PBXGroup;
+			children = (
+				18990AF62546259B00E86375 /* HuaweiAuthKit */,
+				18990B0D2546259E00E86375 /* HuaweiAuthKitTests */,
+				18990B182546259E00E86375 /* HuaweiAuthKitUITests */,
+				18990AF52546259B00E86375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18990AF52546259B00E86375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18990AF42546259B00E86375 /* HuaweiAuthKit.app */,
+				18990B0A2546259E00E86375 /* HuaweiAuthKitTests.xctest */,
+				18990B152546259E00E86375 /* HuaweiAuthKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18990AF62546259B00E86375 /* HuaweiAuthKit */ = {
+			isa = PBXGroup;
+			children = (
+				18990AF72546259B00E86375 /* AppDelegate.swift */,
+				18990AF92546259B00E86375 /* SceneDelegate.swift */,
+				18990AFB2546259B00E86375 /* ViewController.swift */,
+				18990AFD2546259B00E86375 /* Main.storyboard */,
+				18990B002546259E00E86375 /* Assets.xcassets */,
+				18990B022546259E00E86375 /* LaunchScreen.storyboard */,
+				18990B052546259E00E86375 /* Info.plist */,
+			);
+			path = HuaweiAuthKit;
+			sourceTree = "<group>";
+		};
+		18990B0D2546259E00E86375 /* HuaweiAuthKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				18990B0E2546259E00E86375 /* HuaweiAuthKitTests.swift */,
+				18990B102546259E00E86375 /* Info.plist */,
+			);
+			path = HuaweiAuthKitTests;
+			sourceTree = "<group>";
+		};
+		18990B182546259E00E86375 /* HuaweiAuthKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18990B192546259E00E86375 /* HuaweiAuthKitUITests.swift */,
+				18990B1B2546259E00E86375 /* Info.plist */,
+			);
+			path = HuaweiAuthKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18990AF32546259B00E86375 /* HuaweiAuthKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18990B1E2546259E00E86375 /* Build configuration list for PBXNativeTarget "HuaweiAuthKit" */;
+			buildPhases = (
+				18990AF02546259B00E86375 /* Sources */,
+				18990AF12546259B00E86375 /* Frameworks */,
+				18990AF22546259B00E86375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaweiAuthKit;
+			productName = HuaweiAuthKit;
+			productReference = 18990AF42546259B00E86375 /* HuaweiAuthKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18990B092546259E00E86375 /* HuaweiAuthKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18990B212546259E00E86375 /* Build configuration list for PBXNativeTarget "HuaweiAuthKitTests" */;
+			buildPhases = (
+				18990B062546259E00E86375 /* Sources */,
+				18990B072546259E00E86375 /* Frameworks */,
+				18990B082546259E00E86375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18990B0C2546259E00E86375 /* PBXTargetDependency */,
+			);
+			name = HuaweiAuthKitTests;
+			productName = HuaweiAuthKitTests;
+			productReference = 18990B0A2546259E00E86375 /* HuaweiAuthKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18990B142546259E00E86375 /* HuaweiAuthKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18990B242546259E00E86375 /* Build configuration list for PBXNativeTarget "HuaweiAuthKitUITests" */;
+			buildPhases = (
+				18990B112546259E00E86375 /* Sources */,
+				18990B122546259E00E86375 /* Frameworks */,
+				18990B132546259E00E86375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18990B172546259E00E86375 /* PBXTargetDependency */,
+			);
+			name = HuaweiAuthKitUITests;
+			productName = HuaweiAuthKitUITests;
+			productReference = 18990B152546259E00E86375 /* HuaweiAuthKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18990AEC2546259B00E86375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					18990AF32546259B00E86375 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					18990B092546259E00E86375 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 18990AF32546259B00E86375;
+					};
+					18990B142546259E00E86375 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 18990AF32546259B00E86375;
+					};
+				};
+			};
+			buildConfigurationList = 18990AEF2546259B00E86375 /* Build configuration list for PBXProject "HuaweiAuthKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18990AEB2546259B00E86375;
+			productRefGroup = 18990AF52546259B00E86375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18990AF32546259B00E86375 /* HuaweiAuthKit */,
+				18990B092546259E00E86375 /* HuaweiAuthKitTests */,
+				18990B142546259E00E86375 /* HuaweiAuthKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18990AF22546259B00E86375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18990B042546259E00E86375 /* LaunchScreen.storyboard in Resources */,
+				18990B012546259E00E86375 /* Assets.xcassets in Resources */,
+				18990AFF2546259B00E86375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18990B082546259E00E86375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18990B132546259E00E86375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18990AF02546259B00E86375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18990AFC2546259B00E86375 /* ViewController.swift in Sources */,
+				18990AF82546259B00E86375 /* AppDelegate.swift in Sources */,
+				18990AFA2546259B00E86375 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18990B062546259E00E86375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18990B0F2546259E00E86375 /* HuaweiAuthKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18990B112546259E00E86375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18990B1A2546259E00E86375 /* HuaweiAuthKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18990B0C2546259E00E86375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18990AF32546259B00E86375 /* HuaweiAuthKit */;
+			targetProxy = 18990B0B2546259E00E86375 /* PBXContainerItemProxy */;
+		};
+		18990B172546259E00E86375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18990AF32546259B00E86375 /* HuaweiAuthKit */;
+			targetProxy = 18990B162546259E00E86375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18990AFD2546259B00E86375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18990AFE2546259B00E86375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18990B022546259E00E86375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18990B032546259E00E86375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18990B1C2546259E00E86375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18990B1D2546259E00E86375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18990B1F2546259E00E86375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAuthKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutyetisir.HuaweiAuthKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18990B202546259E00E86375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAuthKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutyetisir.HuaweiAuthKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18990B222546259E00E86375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAuthKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutyetisir.HuaweiAuthKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaweiAuthKit.app/HuaweiAuthKit";
+			};
+			name = Debug;
+		};
+		18990B232546259E00E86375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAuthKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutyetisir.HuaweiAuthKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaweiAuthKit.app/HuaweiAuthKit";
+			};
+			name = Release;
+		};
+		18990B252546259E00E86375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAuthKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutyetisir.HuaweiAuthKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuaweiAuthKit;
+			};
+			name = Debug;
+		};
+		18990B262546259E00E86375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaweiAuthKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutyetisir.HuaweiAuthKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuaweiAuthKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18990AEF2546259B00E86375 /* Build configuration list for PBXProject "HuaweiAuthKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18990B1C2546259E00E86375 /* Debug */,
+				18990B1D2546259E00E86375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18990B1E2546259E00E86375 /* Build configuration list for PBXNativeTarget "HuaweiAuthKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18990B1F2546259E00E86375 /* Debug */,
+				18990B202546259E00E86375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18990B212546259E00E86375 /* Build configuration list for PBXNativeTarget "HuaweiAuthKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18990B222546259E00E86375 /* Debug */,
+				18990B232546259E00E86375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18990B242546259E00E86375 /* Build configuration list for PBXNativeTarget "HuaweiAuthKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18990B252546259E00E86375 /* Debug */,
+				18990B262546259E00E86375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18990AEC2546259B00E86375 /* Project object */;
+}
